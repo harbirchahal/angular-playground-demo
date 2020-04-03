@@ -1,3 +1,23 @@
 <mat-toolbar color="primary">
   {{ title }}
 </mat-toolbar>
+<mat-card>
+  <mat-card-title>
+    Serve Playground App
+  </mat-card-title>
+  <mat-card-content>
+    <p>
+      Run <code>npm run playground</code> for a dev server.
+    </p>
+    <p>
+      Navigate to <code>http://localhost:4201/</code> and start sandboxing components!.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-raised-button
+        target="_blank"
+        href="http://www.angularplayground.it/">
+      Documentation
+    </a>
+  </mat-card-actions>
+</mat-card>
