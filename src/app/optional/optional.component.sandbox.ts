@@ -9,5 +9,5 @@ export default sandboxOf(OptionalComponent, {
       <div class="container">
         <app-optional></app-optional>
       </div>
-    `
+    `,
   });
