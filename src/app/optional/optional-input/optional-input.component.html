@@ -1,0 +1,9 @@
+<optional-el [value]="!!value"
+            (changes)="updateInput($event)">
+</optional-el>
+
+<mat-form-field appearance="outline">
+  <input matInput [formControl]="fCtrl"
+                  (blur)="emitValue()"
+                  (keydown.enter)="emitValue()" />
+</mat-form-field>
